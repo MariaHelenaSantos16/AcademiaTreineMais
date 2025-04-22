@@ -29,7 +29,7 @@ Este sistema é voltado para uma academia pequena, para realizar:
 - Exibir pagamentos do mês  
 - Exibir relatório de lucro mensal  
 
-### Não funcionais:
+### Não funcionais
 
 - Garantir segurança dos dados   
 - Suportar muitos cadastros de alunos 
@@ -44,49 +44,53 @@ Este sistema é voltado para uma academia pequena, para realizar:
 
 ## Telas
 
-### 1. Tela Inicial/ Tela de login
-- Identificação do funcionário via CPF.
- -O funcionário cadastrado, iram 
-2. Aba: Controle de Clientes
-•	Mostrada após a identificação do funcionário.
-3. Menu Superior
-• Avaliação Física
-•	Peso
-•	Altura
-•	Medidas corporais
-•	Idade
-• Cadastro de Funcionários
-•	Nome completo
-•	CPF
-•	Telefone
-•	Cargo
-•	Cadastrar / Excluir
-• Cadastro de Alunos
-•	Nome completo
-•	CPF
-•	Telefone / WhatsApp
-•	E-mail
-•	Contato de emergência
-•	Plano
-•	Status do plano
-•	Avaliação física (opcional)
-•	Data de pagamento
-•	Data de cadastro
-•	Vencimento da fidelidade
-•	Notificação de fidelidade próxima ao fim
-• Calendário / Agenda
-•	Inserir feriados e dias que a academia não funcionará.
-• Treinos
-•	Cadastrar treinos personalizados:
-o	Nome do exercício
-o	Séries
-o	Tempo
-o	Imagem ou tutorial
-•	Gerar PDF com treino para enviar ao aluno.
-• Planos
-•	Criar / Editar / Excluir planos.
-•	Gerar contrato em PDF para assinatura.
-• Financeiro (ADM)
-•	Ver pagamentos mensais.
-•	Listar inadimplentes.
-•	Calcular lucros do período.
+### Tela Inicial
+- Identificação do funcionário via CPF
+- Campo de CPF + Botão de acesso
+- Primeira tela ao abrir o sistema
+
+### Aba: Controle de Clientes
+- Aparece após o login do funcionário
+- Mostra a lista de alunos/clientes
+- Opções para editar/cadastrar
+
+### Menu Superior (aparece após login)
+- Itens principais disponíveis no topo da tela
+
+### Avaliação Física
+- Peso, Altura, Medidas corporais, Idade
+- Cadastro de avaliação por aluno
+
+### Cadastro (guia expandível)
+#### > Aluno:
+- Nome completo, CPF, Telefone / WhatsApp, E-mail
+- Contato de emergência
+- Plano, Status do plano
+- Avaliação física (opcional)
+- Data de pagamento, Data de cadastro
+- Vencimento da fidelidade
+- Alerta de fidelidade próxima ao fim
+
+#### > Funcionário:
+- Nome completo, CPF, Telefone, Cargo
+- Botões: Cadastrar / Excluir funcionário
+
+### Calendário / Agenda
+- Inserir feriados e dias sem funcionamento
+- Exibição em formato de calendário
+
+### Treinos
+- Cadastrar treinos personalizados
+- Campos: Nome do exercício, Séries, Tempo, Imagem/Tutorial
+- Gerar PDF com treino para o aluno
+
+### Planos
+- Criar / Editar / Excluir planos
+- Gerar contrato em PDF para assinatura
+
+### Financeiro (ADM)
+- Ver pagamentos mensais
+- Listar inadimplentes
+- Calcular lucros do período
+
+
